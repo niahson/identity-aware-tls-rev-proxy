@@ -1,0 +1,22 @@
+/target/
+__pycache__/
+*.py[cod]
+/.env
+/.test-pki/
+/.smoke-test/
+/benchmark-results/*.jsonl
+/benchmark-results/*.log
+*.log
+*.pem
+*.crt
+*.cer
+*.der
+*.key
+*.p12
+*.pfx
+*.csr
+*.srl
+*~
+
+# Never commit generated private keys or local trust stores.
+/config/tls/

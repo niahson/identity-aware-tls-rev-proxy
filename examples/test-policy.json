@@ -1,0 +1,22 @@
+{
+  "policies": [
+    {
+      "identity": "spiffe://acme/prod/smoke-client-v1",
+      "allow": [
+        {
+          "method": "POST",
+          "path": "/echo"
+        }
+      ]
+    },
+    {
+      "identity": "spiffe://acme/prod/smoke-client-v2",
+      "allow": [
+        {
+          "method": "POST",
+          "path": "/echo"
+        }
+      ]
+    }
+  ]
+}

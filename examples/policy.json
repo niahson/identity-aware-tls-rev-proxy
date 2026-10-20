@@ -1,0 +1,22 @@
+{
+  "policies": [
+    {
+      "identity": "spiffe://acme/prod/payment-agent",
+      "allow": [
+        {
+          "method": "POST",
+          "path": "/payments"
+        }
+      ]
+    },
+    {
+      "identity": "spiffe://acme/prod/reporting-agent",
+      "allow": [
+        {
+          "method": "GET",
+          "path": "/reports/*"
+        }
+      ]
+    }
+  ]
+}
